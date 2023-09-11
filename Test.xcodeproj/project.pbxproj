@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510EAA70C86281FFD0036D42 /* Pods_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 203E811F19390BC4BAA3E536 /* Pods_Test.framework */; };
+		BB5351272AAF025800B9B3B7 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5351052AAF025800B9B3B7 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		BB5351292AAF025800B9B3B7 /* TYLinkTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BB53510A2AAF025800B9B3B7 /* TYLinkTextStorage.m */; };
+		BB53512A2AAF025800B9B3B7 /* TYDrawStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BB53510B2AAF025800B9B3B7 /* TYDrawStorage.m */; };
+		BB53512B2AAF025800B9B3B7 /* TYViewStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BB53510C2AAF025800B9B3B7 /* TYViewStorage.m */; };
+		BB53512C2AAF025800B9B3B7 /* TYImageStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BB53510D2AAF025800B9B3B7 /* TYImageStorage.m */; };
+		BB53512D2AAF025800B9B3B7 /* NSMutableAttributedString+TY.m in Sources */ = {isa = PBXBuildFile; fileRef = BB53510F2AAF025800B9B3B7 /* NSMutableAttributedString+TY.m */; };
+		BB53512E2AAF025800B9B3B7 /* TYImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5351102AAF025800B9B3B7 /* TYImageCache.m */; };
+		BB53512F2AAF025800B9B3B7 /* TYTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5351112AAF025800B9B3B7 /* TYTextStorage.m */; };
+		BB5351302AAF025800B9B3B7 /* TYAttributedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5351122AAF025800B9B3B7 /* TYAttributedLabel.m */; };
+		BB5351312AAF025800B9B3B7 /* TYTextContainer+Extended.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5351192AAF025800B9B3B7 /* TYTextContainer+Extended.m */; };
+		BB5351322AAF025800B9B3B7 /* TYTextContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = BB53511C2AAF025800B9B3B7 /* TYTextContainer.m */; };
+		BB5351332AAF025800B9B3B7 /* AttributedLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB53511E2AAF025800B9B3B7 /* AttributedLabelCell.m */; };
+		BB5351342AAF025800B9B3B7 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB53511F2AAF025800B9B3B7 /* TPKeyboardAvoidingScrollView.m */; };
+		BB5351352AAF025800B9B3B7 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5351202AAF025800B9B3B7 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BB5351362AAF025800B9B3B7 /* TExamTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5351222AAF025800B9B3B7 /* TExamTextField.m */; };
+		BB5351372AAF025800B9B3B7 /* AutoLayoutAttributedLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5351242AAF025800B9B3B7 /* AutoLayoutAttributedLabelCell.m */; };
+		BB5351382AAF025800B9B3B7 /* TextContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5351252AAF025800B9B3B7 /* TextContainerViewController.m */; };
+		BB53513A2AAF02F500B9B3B7 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BB5351392AAF02EC00B9B3B7 /* libicucore.tbd */; };
 		BBF9CB702AAEE3DD00E760D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9CB6F2AAEE3DD00E760D7 /* AppDelegate.swift */; };
 		BBF9CB722AAEE3DD00E760D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9CB712AAEE3DD00E760D7 /* SceneDelegate.swift */; };
 		BBF9CB742AAEE3DD00E760D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF9CB732AAEE3DD00E760D7 /* ViewController.swift */; };
@@ -16,6 +35,43 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		203E811F19390BC4BAA3E536 /* Pods_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2605F91C12A559851147FB11 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.debug.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		BB5351022AAF025800B9B3B7 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		BB5351032AAF025800B9B3B7 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		BB5351042AAF025800B9B3B7 /* TExamTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TExamTextField.h; sourceTree = "<group>"; };
+		BB5351052AAF025800B9B3B7 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		BB5351072AAF025800B9B3B7 /* TextContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextContainerViewController.h; sourceTree = "<group>"; };
+		BB5351092AAF025800B9B3B7 /* TYAttributedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYAttributedLabel.h; sourceTree = "<group>"; };
+		BB53510A2AAF025800B9B3B7 /* TYLinkTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYLinkTextStorage.m; sourceTree = "<group>"; };
+		BB53510B2AAF025800B9B3B7 /* TYDrawStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYDrawStorage.m; sourceTree = "<group>"; };
+		BB53510C2AAF025800B9B3B7 /* TYViewStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYViewStorage.m; sourceTree = "<group>"; };
+		BB53510D2AAF025800B9B3B7 /* TYImageStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageStorage.m; sourceTree = "<group>"; };
+		BB53510E2AAF025800B9B3B7 /* TYTextContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextContainer.h; sourceTree = "<group>"; };
+		BB53510F2AAF025800B9B3B7 /* NSMutableAttributedString+TY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableAttributedString+TY.m"; sourceTree = "<group>"; };
+		BB5351102AAF025800B9B3B7 /* TYImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYImageCache.m; sourceTree = "<group>"; };
+		BB5351112AAF025800B9B3B7 /* TYTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextStorage.m; sourceTree = "<group>"; };
+		BB5351122AAF025800B9B3B7 /* TYAttributedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYAttributedLabel.m; sourceTree = "<group>"; };
+		BB5351132AAF025800B9B3B7 /* TYLinkTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYLinkTextStorage.h; sourceTree = "<group>"; };
+		BB5351142AAF025800B9B3B7 /* TYTextStorageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorageProtocol.h; sourceTree = "<group>"; };
+		BB5351152AAF025800B9B3B7 /* TYViewStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYViewStorage.h; sourceTree = "<group>"; };
+		BB5351162AAF025800B9B3B7 /* TYImageStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageStorage.h; sourceTree = "<group>"; };
+		BB5351172AAF025800B9B3B7 /* TYDrawStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYDrawStorage.h; sourceTree = "<group>"; };
+		BB5351182AAF025800B9B3B7 /* TYTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTextStorage.h; sourceTree = "<group>"; };
+		BB5351192AAF025800B9B3B7 /* TYTextContainer+Extended.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TYTextContainer+Extended.m"; sourceTree = "<group>"; };
+		BB53511A2AAF025800B9B3B7 /* TYImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYImageCache.h; sourceTree = "<group>"; };
+		BB53511B2AAF025800B9B3B7 /* NSMutableAttributedString+TY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableAttributedString+TY.h"; sourceTree = "<group>"; };
+		BB53511C2AAF025800B9B3B7 /* TYTextContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTextContainer.m; sourceTree = "<group>"; };
+		BB53511D2AAF025800B9B3B7 /* AutoLayoutAttributedLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutAttributedLabelCell.h; sourceTree = "<group>"; };
+		BB53511E2AAF025800B9B3B7 /* AttributedLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributedLabelCell.m; sourceTree = "<group>"; };
+		BB53511F2AAF025800B9B3B7 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		BB5351202AAF025800B9B3B7 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		BB5351212AAF025800B9B3B7 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		BB5351222AAF025800B9B3B7 /* TExamTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TExamTextField.m; sourceTree = "<group>"; };
+		BB5351232AAF025800B9B3B7 /* AttributedLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributedLabelCell.h; sourceTree = "<group>"; };
+		BB5351242AAF025800B9B3B7 /* AutoLayoutAttributedLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutAttributedLabelCell.m; sourceTree = "<group>"; };
+		BB5351252AAF025800B9B3B7 /* TextContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextContainerViewController.m; sourceTree = "<group>"; };
+		BB5351392AAF02EC00B9B3B7 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
 		BBF9CB6C2AAEE3DD00E760D7 /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF9CB6F2AAEE3DD00E760D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBF9CB712AAEE3DD00E760D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +80,8 @@
 		BBF9CB782AAEE3DE00E760D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BBF9CB7B2AAEE3DE00E760D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BBF9CB7D2AAEE3DE00E760D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBF9CB832AAEEFDA00E760D7 /* Test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Bridging-Header.h"; sourceTree = "<group>"; };
+		CC992B655B432894CD255F35 /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test.release.xcconfig"; path = "Target Support Files/Pods-Test/Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +89,70 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510EAA70C86281FFD0036D42 /* Pods_Test.framework in Frameworks */,
+				BB53513A2AAF02F500B9B3B7 /* libicucore.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB5351012AAF025800B9B3B7 /* TYLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BB5351232AAF025800B9B3B7 /* AttributedLabelCell.h */,
+				BB53511E2AAF025800B9B3B7 /* AttributedLabelCell.m */,
+				BB53511D2AAF025800B9B3B7 /* AutoLayoutAttributedLabelCell.h */,
+				BB5351242AAF025800B9B3B7 /* AutoLayoutAttributedLabelCell.m */,
+				BB5351022AAF025800B9B3B7 /* RegexKitLite.h */,
+				BB5351202AAF025800B9B3B7 /* RegexKitLite.m */,
+				BB5351042AAF025800B9B3B7 /* TExamTextField.h */,
+				BB5351222AAF025800B9B3B7 /* TExamTextField.m */,
+				BB5351072AAF025800B9B3B7 /* TextContainerViewController.h */,
+				BB5351252AAF025800B9B3B7 /* TextContainerViewController.m */,
+				BB5351032AAF025800B9B3B7 /* TPKeyboardAvoidingScrollView.h */,
+				BB53511F2AAF025800B9B3B7 /* TPKeyboardAvoidingScrollView.m */,
+				BB5351082AAF025800B9B3B7 /* TYAttributedLabel */,
+				BB5351212AAF025800B9B3B7 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				BB5351052AAF025800B9B3B7 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = TYLabel;
+			sourceTree = "<group>";
+		};
+		BB5351082AAF025800B9B3B7 /* TYAttributedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				BB53511B2AAF025800B9B3B7 /* NSMutableAttributedString+TY.h */,
+				BB53510F2AAF025800B9B3B7 /* NSMutableAttributedString+TY.m */,
+				BB5351092AAF025800B9B3B7 /* TYAttributedLabel.h */,
+				BB5351122AAF025800B9B3B7 /* TYAttributedLabel.m */,
+				BB5351172AAF025800B9B3B7 /* TYDrawStorage.h */,
+				BB53510B2AAF025800B9B3B7 /* TYDrawStorage.m */,
+				BB53511A2AAF025800B9B3B7 /* TYImageCache.h */,
+				BB5351102AAF025800B9B3B7 /* TYImageCache.m */,
+				BB5351162AAF025800B9B3B7 /* TYImageStorage.h */,
+				BB53510D2AAF025800B9B3B7 /* TYImageStorage.m */,
+				BB5351132AAF025800B9B3B7 /* TYLinkTextStorage.h */,
+				BB53510A2AAF025800B9B3B7 /* TYLinkTextStorage.m */,
+				BB53510E2AAF025800B9B3B7 /* TYTextContainer.h */,
+				BB53511C2AAF025800B9B3B7 /* TYTextContainer.m */,
+				BB5351192AAF025800B9B3B7 /* TYTextContainer+Extended.m */,
+				BB5351182AAF025800B9B3B7 /* TYTextStorage.h */,
+				BB5351112AAF025800B9B3B7 /* TYTextStorage.m */,
+				BB5351142AAF025800B9B3B7 /* TYTextStorageProtocol.h */,
+				BB5351152AAF025800B9B3B7 /* TYViewStorage.h */,
+				BB53510C2AAF025800B9B3B7 /* TYViewStorage.m */,
+			);
+			path = TYAttributedLabel;
+			sourceTree = "<group>";
+		};
 		BBF9CB632AAEE3DD00E760D7 = {
 			isa = PBXGroup;
 			children = (
 				BBF9CB6E2AAEE3DD00E760D7 /* Test */,
 				BBF9CB6D2AAEE3DD00E760D7 /* Products */,
+				F3786A7451095FFFAF737E67 /* Pods */,
+				D85C7D52113856C71D4E880C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +167,7 @@
 		BBF9CB6E2AAEE3DD00E760D7 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				BB5351012AAF025800B9B3B7 /* TYLabel */,
 				BBF9CB6F2AAEE3DD00E760D7 /* AppDelegate.swift */,
 				BBF9CB712AAEE3DD00E760D7 /* SceneDelegate.swift */,
 				BBF9CB732AAEE3DD00E760D7 /* ViewController.swift */,
@@ -63,8 +175,27 @@
 				BBF9CB782AAEE3DE00E760D7 /* Assets.xcassets */,
 				BBF9CB7A2AAEE3DE00E760D7 /* LaunchScreen.storyboard */,
 				BBF9CB7D2AAEE3DE00E760D7 /* Info.plist */,
+				BBF9CB832AAEEFDA00E760D7 /* Test-Bridging-Header.h */,
 			);
 			path = Test;
+			sourceTree = "<group>";
+		};
+		D85C7D52113856C71D4E880C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB5351392AAF02EC00B9B3B7 /* libicucore.tbd */,
+				203E811F19390BC4BAA3E536 /* Pods_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3786A7451095FFFAF737E67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2605F91C12A559851147FB11 /* Pods-Test.debug.xcconfig */,
+				CC992B655B432894CD255F35 /* Pods-Test.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BBF9CB802AAEE3DE00E760D7 /* Build configuration list for PBXNativeTarget "Test" */;
 			buildPhases = (
+				5DA88408292F2D3516AD475A /* [CP] Check Pods Manifest.lock */,
 				BBF9CB682AAEE3DD00E760D7 /* Sources */,
 				BBF9CB692AAEE3DD00E760D7 /* Frameworks */,
 				BBF9CB6A2AAEE3DD00E760D7 /* Resources */,
+				97B8998AEB33B98DFE978369 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +232,7 @@
 				TargetAttributes = {
 					BBF9CB6B2AAEE3DD00E760D7 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -133,14 +267,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5DA88408292F2D3516AD475A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97B8998AEB33B98DFE978369 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test/Pods-Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test/Pods-Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test/Pods-Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BBF9CB682AAEE3DD00E760D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB5351352AAF025800B9B3B7 /* RegexKitLite.m in Sources */,
+				BB5351312AAF025800B9B3B7 /* TYTextContainer+Extended.m in Sources */,
+				BB5351382AAF025800B9B3B7 /* TextContainerViewController.m in Sources */,
+				BB53512E2AAF025800B9B3B7 /* TYImageCache.m in Sources */,
 				BBF9CB742AAEE3DD00E760D7 /* ViewController.swift in Sources */,
+				BB53512A2AAF025800B9B3B7 /* TYDrawStorage.m in Sources */,
+				BB5351272AAF025800B9B3B7 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				BB5351322AAF025800B9B3B7 /* TYTextContainer.m in Sources */,
+				BB5351362AAF025800B9B3B7 /* TExamTextField.m in Sources */,
+				BB5351302AAF025800B9B3B7 /* TYAttributedLabel.m in Sources */,
+				BB5351332AAF025800B9B3B7 /* AttributedLabelCell.m in Sources */,
+				BB5351292AAF025800B9B3B7 /* TYLinkTextStorage.m in Sources */,
+				BB53512D2AAF025800B9B3B7 /* NSMutableAttributedString+TY.m in Sources */,
+				BB5351372AAF025800B9B3B7 /* AutoLayoutAttributedLabelCell.m in Sources */,
 				BBF9CB702AAEE3DD00E760D7 /* AppDelegate.swift in Sources */,
 				BBF9CB722AAEE3DD00E760D7 /* SceneDelegate.swift in Sources */,
+				BB5351342AAF025800B9B3B7 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				BB53512F2AAF025800B9B3B7 /* TYTextStorage.m in Sources */,
+				BB53512B2AAF025800B9B3B7 /* TYViewStorage.m in Sources */,
+				BB53512C2AAF025800B9B3B7 /* TYImageStorage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +475,11 @@
 		};
 		BBF9CB812AAEE3DE00E760D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2605F91C12A559851147FB11 /* Pods-Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9Y74876TPS;
@@ -295,6 +490,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +499,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.easyulife.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Test/Test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,9 +508,11 @@
 		};
 		BBF9CB822AAEE3DE00E760D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC992B655B432894CD255F35 /* Pods-Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9Y74876TPS;
@@ -323,6 +523,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -331,6 +532,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.easyulife.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Test/Test-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
